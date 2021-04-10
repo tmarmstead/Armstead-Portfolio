@@ -1,14 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from "./components/NavBar/navbar";
-import HomePageCards from "./components/Home/home";
+import Project from "./components/Project/project";
+import Header from "./components/Header/header";
+import Footer from "./components/Footer/footer"
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <HomePageCards />
-      <HomePageCards />
+      <Header />
+      <Project title="Project Title" text="here is the text for my project description" />
+      <Project title="Project Title" text="here is the text for my project description" />
+      <Project title="Project Title" text="here is the text for my project description" />
+      <Project title="Project Title" text="here is the text for my project description" />
+      <Project title="Project Title" text="here is the text for my project description" />
+      <Project title="Project Title" text="here is the text for my project description" />
+      <Footer text="Footer Text here" />
     </div>
   );
 }
