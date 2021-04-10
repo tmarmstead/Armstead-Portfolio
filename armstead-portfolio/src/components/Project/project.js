@@ -5,8 +5,7 @@ import { Card } from "react-bootstrap";
 function Project(props) {
 
     return (
-        <Card style={{ width: '18rem' }} className="col-md-6 col-md-offset-3">
-            <Card.Img variant="top" src="holder.js/100px180" />
+        <Card style={{ width: '18rem' }} className={props.center}>
             <Card.Body>
                 <Card.Title>{props.title}</Card.Title>
                 <Card.Text>
