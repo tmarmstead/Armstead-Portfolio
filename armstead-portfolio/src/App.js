@@ -2,12 +2,13 @@ import './App.css';
 import Project from "./components/Project/project";
 import Header from "./components/Header/header";
 import Footer from "./components/Footer/footer";
-// import ImagesMain from "./components/ImagesMain/imagesmain";
+import ImagesMain from './components/Main-Images/images-main';
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <ImagesMain />
       <Project title="Portfolio Builder" text="here is the text for my project description" />
       <Project title="README.md Generator" text="here is the text for my project description" />
       <Project title="Entertainment Planner" text="here is the text for my project description" />

@@ -1,5 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+import ImagesMain from "../Main-Images/images-main";
 
 
 function Project(props) {
@@ -7,6 +8,7 @@ function Project(props) {
     return (
         <Card style={{ width: '18rem' }}>
             <Card.Body>
+                <ImagesMain img="./project-images/screenshot94.png" />
                 <Card.Title>{props.title}</Card.Title>
                 <Card.Text>
                     {props.text}
