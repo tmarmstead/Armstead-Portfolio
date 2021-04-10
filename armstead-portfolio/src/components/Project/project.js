@@ -5,7 +5,7 @@ import { Card } from "react-bootstrap";
 function Project(props) {
 
     return (
-        <Card style={{ width: '18rem' }} className={props.center}>
+        <Card style={{ width: '18rem' }}>
             <Card.Body>
                 <Card.Title>{props.title}</Card.Title>
                 <Card.Text>

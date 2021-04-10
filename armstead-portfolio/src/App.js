@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Project title="Portfolio Builder" text="here is the text for my project description" center="justify-content-center" />
+      <Project title="Portfolio Builder" text="here is the text for my project description" />
       <Project title="README.md Generator" text="here is the text for my project description" />
       <Project title="Entertainment Planner" text="here is the text for my project description" />
       <Project title="Express Handlebars" text="here is the text for my project description" />
