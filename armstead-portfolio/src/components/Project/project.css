@@ -1,6 +1,7 @@
 .card-project {
-    margin-left: 42%;
-    margin-right: 50%;
+    margin-left: 30%;
+    /* margin-right: 50%; */
     margin-bottom: 25px;
     align-items: center;
+    background-color: lightyellow;
 }
