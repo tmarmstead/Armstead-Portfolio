@@ -13,7 +13,7 @@
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.1",
-    "homepage": "https://myusername.github.io/my-app"
+    "homepage": "https://tmarmstead.github.io/my-app"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
