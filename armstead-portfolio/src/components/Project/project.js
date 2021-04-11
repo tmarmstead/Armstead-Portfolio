@@ -8,7 +8,7 @@ function Project(props) {
     return (
         <Card style={{ width: '18rem' }}>
             <Card.Body>
-                <ImagesMain img="../project-images/Screenshot (97).png" />
+                <ImagesMain img={props.img} />
                 <Card.Title>{props.title}</Card.Title>
                 <Card.Text>
                     {props.text}
