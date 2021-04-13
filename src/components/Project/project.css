@@ -1,7 +1,13 @@
 .card-project {
-    margin-left: 30%;
-    /* margin-right: 50%; */
-    margin-bottom: 25px;
+    margin-left: 40%;
+    margin-right: 30px;
+    margin-top: 55px;
+    margin-bottom: 55px;
     align-items: center;
-    background-color: lightyellow;
+    background-color: #e6beae;
+    margin-top: 40px;
+
+    width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
 }
