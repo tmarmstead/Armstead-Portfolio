@@ -1,9 +1,9 @@
 import React from "react";
-import { Card, CardDeck } from "react-bootstrap";
+import { Card, CardDeck, Jumbotron } from "react-bootstrap";
 // // import Project from "../Project/project"
 // import ImagesMain from "../Main-Images/images-main";
-import readme from "../project-images/Screenshot (97).png";
-import entertainment from "../project-images/Screenshot (103).png";
+import readme from "../project-images/readme.png";
+import entertainment from "../project-images/entertainment.png";
 import employeeDirectory from "../project-images/Screenshot (175).png";
 import burger from "../project-images/Screenshot (110).png";
 import grocery from "../project-images/Screenshot (139).png";
@@ -15,7 +15,11 @@ import "./project-cards.css"
 function ProjectCards(props) {
     return (
         <div>
-            <CardDeck class="card-deck">
+            <Jumbotron id="portfolio" className="jumbotron">
+                <h1>Portfolio</h1>
+
+            </Jumbotron>
+            <CardDeck class="card-deck" id="portfolio">
                 <Card class="full-card">
                     <Card.Img variant="top" src={readme} class="card-image" />
                     <Card.Body>
@@ -33,11 +37,8 @@ function ProjectCards(props) {
                     <Card.Body>
                         <Card.Title>Entertainment Planner</Card.Title>
                         <Card.Text>
-                            Greetings friends! Let’s set the stage - it’s Friday evening. You’re topping off a LONG week of work. The weather is nasty. You’re completely fried. You just NEED. TO. RELAX. But you can’t muster up the effort to figure out how to unwind. WORRY NOT! Hop on over to the Interactive Entertainment Planner. With minimal effort, you’ll be able grab a movie recommendation based on a simple input, generate a random cocktail to make for yourself, and find recipes based on ingredients that you want to include.
-                            Movie recommendation? CHECK!
-                            Cocktail in hand? CHECK!
-                            Delicious meal prepared? CHECK!
-                        READY? GET SET? UNWIND{' '}
+                            Hop on over to the Interactive Entertainment Planner. With minimal effort, you’ll be able grab a movie recommendation based on a simple input, generate a random cocktail to make for yourself, and find recipes based on ingredients that you want to include.
+                        {' '}
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>

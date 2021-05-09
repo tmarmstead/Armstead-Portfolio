@@ -8,6 +8,9 @@ import Navigation from "./components/NavBar/navbar";
 // import Project from "./components/Project/project";
 import AboutMe from './components/AboutMe/aboutme';
 import ProjectCards from './components/ProjectCards/project-cards';
+import Contact from './components/Contact/contact';
+// import Connect from './components/Connect/connect';
+import ContactCarousel from './components/Contact-Info/contact-info';
 // import budgetTracker from "./components/project-images/Screenshot"
 // import ImagesMain from "./components/Main-Images/images-main"
 // import readme from "./project-images/Screenshot (97).png";
@@ -30,12 +33,14 @@ function App() {
     //       <Route exact path="/projects" component={ } /> */}
     //   </div>
     // </HashRouter>
-    <div>
+    <div className="app-div">
       <Navigation />
       <Header />
       <AboutMe />
       <ProjectCards title="Card 1 Title" text="Text body testasdfsdgsafgagfadfg asdfal;jaskd agdsl;jl;sadlg alsg l;jk " />
-
+      <Contact />
+      {/* <Connect /> */}
+      <ContactCarousel />
       <Footer text="In programming, the hard part isn't solving problems, but deciding what problems to solve." person="-Paul Graha" />
     </div>
   );
