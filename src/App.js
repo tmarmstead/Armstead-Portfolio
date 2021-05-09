@@ -1,19 +1,45 @@
 import './App.css';
-// import Project from "./components/Project/project";npm 
+// import { HashRouter, Route } from "react-router-dom";
+// import Home from "../src/Pages/Home";
 import Header from "./components/Header/header";
 import Footer from "./components/Footer/footer";
-// import ImagesMain from './components/Main-Images/images-main';
-import TableMain from "./components/Table/table";
+// import TableMain from "./components/Table/table";
+import Navigation from "./components/NavBar/navbar";
+// import Project from "./components/Project/project";
+import AboutMe from './components/AboutMe/aboutme';
+import ProjectCards from './components/ProjectCards/project-cards';
+// import budgetTracker from "./components/project-images/Screenshot"
+// import ImagesMain from "./components/Main-Images/images-main"
+// import readme from "./project-images/Screenshot (97).png";
+// import entertainment from "../project-images/Screenshot (103).png";
+// import employeeDirectory from "../project-images/Screenshot (175).png";
+// import burger from "../project-images/Screenshot (110).png";
+// import grocery from "../project-images/Screenshot (139).png";
+// import budgetTracker from "../project-images/Screenshot (181).png";
+
 
 
 function App() {
   return (
-    <div className="App">
+    // <HashRouter basename="/">
+    //   <div className="App">
+
+    //     <Route exact path="/" component={Home} />
+    //     {/* <Route exact path="/home" component={ } />
+    //       <Route exact path="/contact" component={ } />
+    //       <Route exact path="/projects" component={ } /> */}
+    //   </div>
+    // </HashRouter>
+    <div>
+      <Navigation />
       <Header />
-      <TableMain />
-      <Footer text="In programming, the hard part isn't solving problems, but deciding what problems to solve." person="-Paul GrahaThis app is designed to allow for offline access and functionality. It lets a user add or subtract and keep track of their transactions both on and offline.m" />
+      <AboutMe />
+      <ProjectCards title="Card 1 Title" text="Text body testasdfsdgsafgagfadfg asdfal;jaskd agdsl;jl;sadlg alsg l;jk " />
+
+      <Footer text="In programming, the hard part isn't solving problems, but deciding what problems to solve." person="-Paul Graha" />
     </div>
   );
+
 }
 
 export default App;
