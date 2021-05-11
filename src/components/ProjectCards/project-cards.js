@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardDeck, Jumbotron } from "react-bootstrap";
+import { Card, CardDeck, Jumbotron, Button } from "react-bootstrap";
 // // import Project from "../Project/project"
 // import ImagesMain from "../Main-Images/images-main";
 import readme from "../project-images/readme.png";
@@ -29,7 +29,7 @@ function ProjectCards(props) {
       </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted">Link to Repo/Deploy</small>
+                        <Button href="https://github.com/tmarmstead/readme_generation" target="_blank">GitHub Repo</Button>
                     </Card.Footer>
                 </Card>
                 <Card>
@@ -42,7 +42,9 @@ function ProjectCards(props) {
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted">Link to Repo/Deploy</small>
+                        <Button href="https://github.com/tmarmstead/Interactive_Entertainment_Planner" target="_blank">GitHub Repo</Button>
+                        <Button href="https://samrogers15.github.io/Interactive_Entertainment_Planner/" target="_blank">Live Site</Button>
+
                     </Card.Footer>
                 </Card>
                 <Card>
@@ -54,7 +56,9 @@ function ProjectCards(props) {
       </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted">Link to Repo/Deploy</small>
+                        <Button href="https://github.com/tmarmstead/React-Employee-Directory" target="_blank">GitHub Repo</Button>
+                        <Button href="https://react-employee-directory-ta.herokuapp.com/" target="_blank">Live Site</Button>
+
                     </Card.Footer>
                 </Card>
             </CardDeck>
@@ -68,7 +72,7 @@ function ProjectCards(props) {
       </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted">Link to Repo/Deploy</small>
+                        <Button href="https://github.com/tmarmstead/Express-handlebars" target="_blank">GitHub Repo</Button>
                     </Card.Footer>
                 </Card>
                 <Card>
@@ -80,7 +84,8 @@ function ProjectCards(props) {
       </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted">Link to Repo/Deploy</small>
+                        <Button href="https://github.com/tmarmstead/Grocery-list" target="_blank">GitHub Repo</Button>
+                        <Button href="https://samrogers15.github.io/Interactive_Entertainment_Planner/" target="_blank">Live Site</Button>
                     </Card.Footer>
                 </Card>
                 <Card>
@@ -92,7 +97,7 @@ function ProjectCards(props) {
       </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted">Link to Repo/Deploy</small>
+                        <Button href="https://github.com/tmarmstead/Budget-Tracker" target="_blank">GitHub Repo</Button>
                     </Card.Footer>
                 </Card>
             </CardDeck>
