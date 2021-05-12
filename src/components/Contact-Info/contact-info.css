@@ -1,5 +1,5 @@
 .profile-pic {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     border: 50px solid #fdd998;
@@ -66,6 +66,7 @@ border: #f5b971;
    background-color: #f5b971;
    border: #f5b971;
 }
-.card-button:hover {
+.card-button:hover, .double-button:hover, .card-button:focus, .double-button:focus {
     background-color: #293462;
+    border: #293462;
 }
