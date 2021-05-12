@@ -2,7 +2,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 50px solid darkolivegreen;
+    border: 50px solid #fdd998;
     border-radius: 10px;
     /* padding: 50px; */
 }
@@ -11,7 +11,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 50px solid darkolivegreen;
+    border: 50px solid #fdd998;
     border-radius: 10px;
     height: 900px;
     width:700px;
@@ -22,7 +22,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 50px solid darkolivegreen;
+    border: 50px solid #fdd998;
     border-radius: 10px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -50,10 +50,22 @@ display: block;
     margin-top: 50px;
     margin-bottom: 105px;
 align-content: center;
+background-color: #f5b971;
+border: #f5b971;
 }
 
 .fa-5x {
-   color: blue;
+   color: #293462;
    margin-top: 110px;
 }
 
+.double-button {
+    margin-top: 5px;
+   margin-right: 5px;
+   margin-bottom: 5px;
+   background-color: #f5b971;
+   border: #f5b971;
+}
+.card-button:hover {
+    background-color: #293462;
+}

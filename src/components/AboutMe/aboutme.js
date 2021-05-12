@@ -1,12 +1,12 @@
 import React from 'react';
 import { Jumbotron } from "react-bootstrap";
-// import "./header.css";
+import "./aboutme.css";
 
 
 function AboutMe() {
     return (
 
-        <Jumbotron id="home" className="jumbotron">
+        <Jumbotron id="home" className="about-me">
             <p>
                 Tina is a musician turned programmer. After studying professional music at Berklee College of music, she began coding in her free time. Learning to code became a fun new adventure for Tina as the mental process very much matches that of learning music. Having enjoyed the process of development, Tina decided to take it further by enrolling in the University of Oregon's Full Stack Bootcamp. 
                 

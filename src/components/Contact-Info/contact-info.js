@@ -29,17 +29,18 @@ function ContactCarousel() {
                         <Card.Body>
                             {/* <Card.Title className="card-title">Find me on LinkedIn</Card.Title> */}
                             <div className="text-center">
-                                <FontAwesomeIcon icon={faLinkedin} className="fa-5x" />
+                                <FontAwesomeIcon icon={faLinkedin} className="fa-5x" href="https://www.linkedin.com/in/tina-armstead-87854498/" target="_blank" />
                             </div>
                             <div className="text-center">
-                                <Button variant="primary" onClick="www.google.com" className="card-button" href="https://www.linkedin.com/in/tina-armstead-87854498/" target="_blank">View My LinkedIn Profile</Button>
+                                <Button variant="primary" className="card-button" href="https://www.linkedin.com/in/tina-armstead-87854498/" target="_blank">View My LinkedIn Profile</Button>
                             </div>
                             {/* <Card.Title className="card-title">Find me on GitHub</Card.Title> */}
                             <div className="text-center">
-                                <FontAwesomeIcon icon={faGithub} className="fa-5x" />
+                                <FontAwesomeIcon icon={faGithub} className="fa-5x" href="https://github.com/tmarmstead" target="_blank" />
                             </div>
                             <div className="text-center">
-                                <Button variant="primary" onClick="www.google.com" className="card-button" href="https://github.com/tmarmstead" target="_blank">View My Github Profile</Button>
+                                <Button variant="primary" className="card-button" href="https://github.com/tmarmstead" target="_blank"
+                                >View My Github Profile</Button>
                             </div>
                         </Card.Body>
                     </Card>
