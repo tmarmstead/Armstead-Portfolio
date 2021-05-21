@@ -81,6 +81,7 @@ function ProjectCards(props) {
                     <Card.Footer>
                         <div className="text-center">
                             <Button href="https://github.com/tmarmstead/Express-handlebars" target="_blank" className="double-button">GitHub Repo</Button>
+                            <Button href="https://past-express-handlebars.herokuapp.com/" target="_blank" className="double-button">Live Site</Button>
                         </div>
 
                     </Card.Footer>
@@ -96,7 +97,7 @@ function ProjectCards(props) {
                     <Card.Footer>
                         <div className="text-center">
                             <Button href="https://github.com/tmarmstead/Grocery-list" target="_blank" className="double-button">GitHub Repo</Button>
-                            <Button href="https://samrogers15.github.io/Interactive_Entertainment_Planner/" target="_blank" className="double-button">Live Site</Button>
+                            <Button href="https://the-grocery-list.herokuapp.com/" target="_blank" className="double-button">Live Site</Button>
                         </div>
                     </Card.Footer>
                 </Card>
@@ -111,7 +112,7 @@ function ProjectCards(props) {
                     <Card.Footer>
                         <div className="text-center">
                             <Button href="https://github.com/tmarmstead/Budget-Tracker" target="_blank" className="double-button">GitHub Repo</Button>
-
+                            <Button href="https://mighty-spire-93511.herokuapp.com/" target="_blank" className="double-button">Live Site</Button>
                         </div>
                     </Card.Footer>
                 </Card>
