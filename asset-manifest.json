@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Armstead-Portfolio/static/css/main.50f83eab.chunk.css",
-    "main.js": "/Armstead-Portfolio/static/js/main.9a4bae9f.chunk.js",
-    "main.js.map": "/Armstead-Portfolio/static/js/main.9a4bae9f.chunk.js.map",
+    "main.css": "/Armstead-Portfolio/static/css/main.b3723e3d.chunk.css",
+    "main.js": "/Armstead-Portfolio/static/js/main.602fbf1a.chunk.js",
+    "main.js.map": "/Armstead-Portfolio/static/js/main.602fbf1a.chunk.js.map",
     "runtime-main.js": "/Armstead-Portfolio/static/js/runtime-main.bc54a478.js",
     "runtime-main.js.map": "/Armstead-Portfolio/static/js/runtime-main.bc54a478.js.map",
     "static/js/2.f2eaa610.chunk.js": "/Armstead-Portfolio/static/js/2.f2eaa610.chunk.js",
     "static/js/2.f2eaa610.chunk.js.map": "/Armstead-Portfolio/static/js/2.f2eaa610.chunk.js.map",
     "index.html": "/Armstead-Portfolio/index.html",
-    "static/css/main.50f83eab.chunk.css.map": "/Armstead-Portfolio/static/css/main.50f83eab.chunk.css.map",
+    "static/css/main.b3723e3d.chunk.css.map": "/Armstead-Portfolio/static/css/main.b3723e3d.chunk.css.map",
     "static/js/2.f2eaa610.chunk.js.LICENSE.txt": "/Armstead-Portfolio/static/js/2.f2eaa610.chunk.js.LICENSE.txt",
     "static/media/Screenshot (110).ef29f6d5.png": "/Armstead-Portfolio/static/media/Screenshot (110).ef29f6d5.png",
     "static/media/Screenshot (139).83c7a8ae.png": "/Armstead-Portfolio/static/media/Screenshot (139).83c7a8ae.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.bc54a478.js",
     "static/js/2.f2eaa610.chunk.js",
-    "static/css/main.50f83eab.chunk.css",
-    "static/js/main.9a4bae9f.chunk.js"
+    "static/css/main.b3723e3d.chunk.css",
+    "static/js/main.602fbf1a.chunk.js"
   ]
 }
