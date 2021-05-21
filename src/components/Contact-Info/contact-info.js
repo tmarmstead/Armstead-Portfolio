@@ -22,11 +22,11 @@ function ContactCarousel() {
                     />
                     <Carousel.Caption>
                         {/* <h1>Tina Armstead</h1> */}
-                        <h3>View My Contact info</h3>
+
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <Card className="contact-info" fluid>
+                    <Card className="contact-info" style={{ width: '18rem' }}>
                         <Card.Body>
                             {/* <Card.Title className="card-title">Find me on LinkedIn</Card.Title> */}
                             <div className="text-center">
@@ -35,6 +35,13 @@ function ContactCarousel() {
                             <div className="text-center">
                                 <Button variant="primary" className="card-button" href="https://www.linkedin.com/in/tina-armstead-87854498/" target="_blank">View My LinkedIn Profile</Button>
                             </div>
+                        </Card.Body>
+                    </Card>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <Card className="contact-info" style={{ width: '18rem' }}>
+                        <Card.Body>
+
                             {/* <Card.Title className="card-title">Find me on GitHub</Card.Title> */}
                             <div className="text-center">
                                 <FontAwesomeIcon icon={faGithub} className="fa-5x" href="https://github.com/tmarmstead" target="_blank" />
@@ -52,11 +59,16 @@ function ContactCarousel() {
                         src={Profile} fluid
                         alt="Third slide"
                     />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <Card className="thanks, contact-info" style={{ width: '18rem' }}>
+                        <Card.Body>
 
-                    <Carousel.Caption>
-                        <h3>Thanks for visiting my Portfolio!</h3>
-                        <p>Contact me for any questions, work opportunities, or colloborations!</p>
-                    </Carousel.Caption>
+                            <h3>Thanks for visiting my Portfolio!</h3>
+                            <p>Contact me for any questions, work opportunities, or colloborations!</p>
+
+                        </Card.Body>
+                    </Card>
                 </Carousel.Item>
             </Carousel>
 

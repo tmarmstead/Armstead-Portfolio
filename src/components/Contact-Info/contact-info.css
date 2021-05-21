@@ -62,8 +62,8 @@ display: block;
 }
 
 .card-button{
-    margin-top: 50px;
-    margin-bottom: 105px;
+    margin-top: 30px;
+    margin-bottom: 60px;
 align-content: center;
 background-color: #f5b971;
 border: #f5b971;
@@ -71,7 +71,7 @@ border: #f5b971;
 
 .fa-5x {
    color: #293462;
-   margin-top: 110px;
+   margin-top: 30px;
 }
 
 .double-button {
@@ -84,4 +84,11 @@ border: #f5b971;
 .card-button:hover, .double-button:hover, .card-button:focus, .double-button:focus {
     background-color: #293462;
     border: #293462;
+}
+
+.thanks {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
