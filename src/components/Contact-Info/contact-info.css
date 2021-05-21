@@ -5,6 +5,10 @@
     border: 50px solid #fdd998;
     border-radius: 10px;
     /* padding: 50px; */
+
+    display: block;
+    height: auto;
+    object-fit: cover;
 }
 
 .contact-info {
@@ -15,6 +19,10 @@
     border-radius: 10px;
     height: 900px;
     width:700px;
+
+    display: block;
+    height: auto;
+    object-fit: cover;
 
 }
 
@@ -28,6 +36,10 @@
     margin-bottom: 30px;
     height: 900px;
 
+    
+    height: auto;
+    object-fit: cover;
+
     /* padding: 50px; */
 }
 .full-carousel {
@@ -37,6 +49,9 @@ width: 500px; */
 display: block;
     margin-left: auto;
     margin-right: auto;
+
+    height: auto;
+    object-fit: cover;
 }
 
 .card-title {

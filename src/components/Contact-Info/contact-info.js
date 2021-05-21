@@ -1,12 +1,13 @@
 import React from "react";
 import "./contact-info.css";
-import { Carousel, Card, Button, Col, Image } from "react-bootstrap";
+import { Carousel, Card, Button } from "react-bootstrap";
 // import readme from "../project-images/readme.png";
 import Profile from "../project-images/profile_photo.png";
 import letsConnect from "../project-images/connect.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import Image from "react-bootstrap/Image";
 
 
 function ContactCarousel() {
@@ -14,9 +15,9 @@ function ContactCarousel() {
         <div>
             <Carousel className="full-carousel">
                 <Carousel.Item className="carousel-item">
-                    <img
+                    <Image
                         className="lets-connect"
-                        src={letsConnect}
+                        src={letsConnect} fluid
                         alt="First slide"
                     />
                     <Carousel.Caption>
@@ -25,7 +26,7 @@ function ContactCarousel() {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <Card className="contact-info">
+                    <Card className="contact-info" fluid>
                         <Card.Body>
                             {/* <Card.Title className="card-title">Find me on LinkedIn</Card.Title> */}
                             <div className="text-center">
@@ -46,9 +47,9 @@ function ContactCarousel() {
                     </Card>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img
+                    <Image
                         className="profile-pic"
-                        src={Profile}
+                        src={Profile} fluid
                         alt="Third slide"
                     />
 
