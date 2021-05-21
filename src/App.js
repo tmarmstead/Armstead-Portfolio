@@ -11,6 +11,7 @@ import ProjectCards from './components/ProjectCards/project-cards';
 import Contact from './components/Contact/contact';
 // import Connect from './components/Connect/connect';
 import ContactCarousel from './components/Contact-Info/contact-info';
+import BrandStatement from './components/BrandStatement/brandstatement';
 // import budgetTracker from "./components/project-images/Screenshot"
 // import ImagesMain from "./components/Main-Images/images-main"
 // import readme from "./project-images/Screenshot (97).png";
@@ -35,9 +36,10 @@ function App() {
     // </HashRouter>
     <div className="app-div">
       <Navigation />
-      <Header />
+      <Header header="Tina Armstead" subheader="Software Developer" />
       <AboutMe />
-      <ProjectCards title="Card 1 Title" text="Text body testasdfsdgsafgagfadfg asdfal;jaskd agdsl;jl;sadlg alsg l;jk " />
+      <ProjectCards />
+      <BrandStatement />
       <Contact />
       {/* <Connect /> */}
       <ContactCarousel />

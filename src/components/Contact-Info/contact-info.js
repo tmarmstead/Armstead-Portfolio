@@ -60,6 +60,7 @@ function ContactCarousel() {
                         alt="Third slide"
                     />
                 </Carousel.Item>
+
                 <Carousel.Item>
                     <Card className="thanks, contact-info" style={{ width: '18rem' }}>
                         <Card.Body>

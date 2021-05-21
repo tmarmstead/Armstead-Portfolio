@@ -12,6 +12,7 @@ function Navigation() {
                 <Nav className="mr-auto">
                     <Nav.Link href="#home">Home</Nav.Link>
                     <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+                    <Nav.Link href="#brandstatement">Brand Statement</Nav.Link>
                     <Nav.Link href="#contact">Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>

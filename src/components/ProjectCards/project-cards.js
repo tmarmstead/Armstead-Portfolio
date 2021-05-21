@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardDeck, Jumbotron, Button } from "react-bootstrap";
+import { Card, CardDeck, Button, Jumbotron } from "react-bootstrap";
 // // import Project from "../Project/project"
 // import ImagesMain from "../Main-Images/images-main";
 import readme from "../project-images/readme.png";
@@ -9,17 +9,17 @@ import burger from "../project-images/Screenshot (110).png";
 import grocery from "../project-images/Screenshot (139).png";
 import budgetTracker from "../project-images/Screenshot (181).png";
 import "./project-cards.css"
+// import Header from "../Header/header"
 
 
 
-function ProjectCards(props) {
+function ProjectCards() {
     return (
         <div>
-            <Jumbotron id="portfolio" className="jumbotron">
+            <Jumbotron id="portfolio">
                 <h1>Portfolio</h1>
-
             </Jumbotron>
-            <CardDeck class="card-deck" id="portfolio">
+            <CardDeck class="card-deck">
                 <Card className="full-card">
                     <Card.Img variant="top" src={readme} class="card-image" />
                     <Card.Body>

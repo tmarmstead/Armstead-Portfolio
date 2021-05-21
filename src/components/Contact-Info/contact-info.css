@@ -92,3 +92,7 @@ border: #f5b971;
     margin-left: 20px;
     margin-right: 20px;
 }
+
+p {
+    font-size: larger;
+}

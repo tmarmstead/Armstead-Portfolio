@@ -3,15 +3,17 @@ import { Jumbotron } from "react-bootstrap";
 import "./header.css";
 
 
-function Header() {
+function Header(props) {
     return (
-
-        <Jumbotron id="home" className="jumbotron">
-            <h1 class="responsive-title">Tina Armstead</h1>
-            {/* <h5>
+        <div>
+            <Jumbotron id="home" className="jumbotron" >
+                <h1 class="responsive-title">{props.header}</h1>
+                <p>{props.subheader}</p>
+                {/* <h5>
                 Software Development
             </h5> */}
-        </Jumbotron>
+            </Jumbotron>
+        </div>
     )
 }
 
