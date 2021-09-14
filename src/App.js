@@ -12,6 +12,7 @@ import Contact from './components/Contact/contact';
 // import Connect from './components/Connect/connect';
 import ContactCarousel from './components/Contact-Info/contact-info';
 import BrandStatement from './components/BrandStatement/brandstatement';
+import LandingCarousel from './components/LandingCarousel';
 // import budgetTracker from "./components/project-images/Screenshot"
 // import ImagesMain from "./components/Main-Images/images-main"
 // import readme from "./project-images/Screenshot (97).png";
@@ -37,6 +38,7 @@ function App() {
     <div className="app-div">
       <Navigation />
       <Header header="Tina Armstead" subheader="Software Developer" />
+      {/* <LandingCarousel /> */}
       <AboutMe />
       <ProjectCards />
       <BrandStatement />

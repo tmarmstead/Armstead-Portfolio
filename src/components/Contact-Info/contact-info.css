@@ -96,3 +96,15 @@ border: #f5b971;
 p {
     font-size: larger;
 }
+
+.thank-card {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+
+}
+
+#thank-title {
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 30px;
+}

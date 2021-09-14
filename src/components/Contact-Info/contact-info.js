@@ -14,7 +14,7 @@ function ContactCarousel() {
     return (
         <div>
             <Carousel className="full-carousel">
-                <Carousel.Item className="carousel-item">
+                <Carousel.Item interval={2000} className="carousel-item">
                     <Image
                         className="lets-connect"
                         src={letsConnect} fluid
@@ -25,7 +25,7 @@ function ContactCarousel() {
 
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={2000}>
                     <Card className="contact-info" style={{ width: '18rem' }}>
                         <Card.Body>
                             {/* <Card.Title className="card-title">Find me on LinkedIn</Card.Title> */}
@@ -38,7 +38,7 @@ function ContactCarousel() {
                         </Card.Body>
                     </Card>
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={2000}>
                     <Card className="contact-info" style={{ width: '18rem' }}>
                         <Card.Body>
 
@@ -53,7 +53,7 @@ function ContactCarousel() {
                         </Card.Body>
                     </Card>
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={2000}>
                     <Image
                         className="profile-pic"
                         src={Profile} fluid
@@ -61,12 +61,12 @@ function ContactCarousel() {
                     />
                 </Carousel.Item>
 
-                <Carousel.Item>
+                <Carousel.Item interval={2000}>
                     <Card className="thanks, contact-info" style={{ width: '18rem' }}>
                         <Card.Body>
 
-                            <h3>Thanks for visiting my Portfolio!</h3>
-                            <p>Contact me for any questions, work opportunities, or colloborations!</p>
+                            <h3 className="thank-card" id="thank-title">Thanks for visiting my Portfolio!</h3><br></br>
+                            <p className="thank-card"></p>
 
                         </Card.Body>
                     </Card>

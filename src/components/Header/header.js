@@ -8,7 +8,7 @@ function Header(props) {
         <div>
             <Jumbotron id="home" className="jumbotron" >
                 <h1 class="responsive-title">{props.header}</h1>
-                <p>{props.subheader}</p>
+                <p id="software-developer">{props.subheader}</p>
                 {/* <h5>
                 Software Development
             </h5> */}
