@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Armstead-Portfolio/static/css/main.d0b0f118.chunk.css",
-    "main.js": "/Armstead-Portfolio/static/js/main.14e7bee5.chunk.js",
-    "main.js.map": "/Armstead-Portfolio/static/js/main.14e7bee5.chunk.js.map",
+    "main.js": "/Armstead-Portfolio/static/js/main.8c23beb8.chunk.js",
+    "main.js.map": "/Armstead-Portfolio/static/js/main.8c23beb8.chunk.js.map",
     "runtime-main.js": "/Armstead-Portfolio/static/js/runtime-main.bc54a478.js",
     "runtime-main.js.map": "/Armstead-Portfolio/static/js/runtime-main.bc54a478.js.map",
     "static/js/2.c1ea642b.chunk.js": "/Armstead-Portfolio/static/js/2.c1ea642b.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.bc54a478.js",
     "static/js/2.c1ea642b.chunk.js",
     "static/css/main.d0b0f118.chunk.css",
-    "static/js/main.14e7bee5.chunk.js"
+    "static/js/main.8c23beb8.chunk.js"
   ]
 }
