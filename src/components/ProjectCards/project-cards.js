@@ -197,7 +197,7 @@ function ProjectCards() {
                     <Card.Footer>
                         <div className="text-center">
                             <Button href="https://github.com/tmarmstead/weather_api" target="_blank" className="double-button">GitHub Repo</Button>
-                            <Button href="https://mighty-spire-93511.herokuapp.com/" target="_blank" className="double-button">Live Site</Button>
+                            <Button href="https://tmarmstead.github.io/weather_api/" target="_blank" className="double-button">Live Site</Button>
                         </div>
                     </Card.Footer>
                 </Card>
